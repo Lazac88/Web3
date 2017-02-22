@@ -10,6 +10,7 @@ div#navbar, div.spacer {
 
 div#navbar {
 	background-color:  #87CEFA;
+	height: 15px;
 	padding: 10px 0;
 }
 
