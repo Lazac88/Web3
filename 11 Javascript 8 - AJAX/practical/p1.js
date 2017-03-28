@@ -1,3 +1,6 @@
+var myGlobalObject;
+
+
 function ajaxRequest() 
 		{
 			var returnJSON;
@@ -11,9 +14,9 @@ function ajaxRequest()
      				returnObject = JSON.parse(responseText);
             //console.log("Parsed JSON: " + returnJSON.Michael);
 
+            myGlobalObject = returnObject;
 
-
-
+            myFunction(myGlobalObject);
 
 
 
@@ -36,3 +39,13 @@ function ajaxRequest()
   			};  			
   			xhttp.send();  			
 		}
+
+
+
+    console.log("GLOBAL OBJECT:" + myGlobalObject);
+
+    //External Function to Grab data.
+    function myFunction(x)
+    {
+      console.log("Return" + x);
+    }
