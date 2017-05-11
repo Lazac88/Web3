@@ -12,6 +12,7 @@ In order to run the nodejs1.ipynb file in your own computer:
 3. Install Anaconda (Anaconda is just a Python interpreter with a bunch of useful libraries superimposed on top of it)
 4. Open a command prompt in the folder where the nodejs1.ipynb is located
 5. Type 'jupyter-notebook pythonTutorial3RegExpressiosn.ipynb'
+	'jupyter-notebook Django2.ipynb'
 6. Ignore the warning about the lack of kernel and just proceed without one
 
 
